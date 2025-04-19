@@ -1,0 +1,23 @@
+{
+    "name": "http-upgrade-request",
+    "version": "0.0.0",
+    "description": "",
+    "files": [
+        "lib/",
+        "dist/"
+    ],
+    "exports": {
+        ".": "./dist/index.js"
+    },
+    "scripts": {
+        "build": "tsc",
+        "prepare": "npm run build",
+        "test": "echo TODO && exit 1"
+    },
+    "author": "",
+    "license": "ISC",
+    "devDependencies": {
+        "@types/node": "^22.14.1",
+        "typescript": "^5.8.2"
+    }
+}
